@@ -1,0 +1,333 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#menu{
+    display:flex;
+    width:100%;
+    height:15vh;
+}
+#menu div{
+    width:10%;
+    height:100%;
+}
+#menu div img{
+    width:100%;
+    height:70%;
+	margin:5px;
+}
+#menu nav{
+    width:90%;
+    height:60%;
+	margin-top:10px;
+	
+}
+#topo{
+	height:100%;
+	padding:5px;
+	grid-template-columns:50% 50%;
+	grid-template-rows:30% 70%;
+	
+	
+}
+.botao{
+	
+	width:100%;
+	margin-bottom:5px;
+	padding:5px;
+	display:flex;
+	justify-content:flex-end;
+	
+}	
+
+.botao a{
+	background-color:#00527C;
+	color:#F59800;
+	text-transform:uppercase;
+	border-radius:10px;
+	font-family:'Open Sans', sans-serif;
+	font-size:15px;
+	padding:1rem;
+}
+
+#fundo{
+	background-image:url('imagens/contabilidade2.jpg');
+	background-position:center;
+	background-size:cover;
+	height:100%;
+	width:100%;
+	margin-top:2rem;
+	padding:6rem;
+	text-align:center;
+	font-family:'Roboto', sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:white;
+	font-size:25px;
+	text-shadow:2px 2px 2px #F59800;
+}
+nav ul{
+	display:flex;
+	background-color:#00527C;
+	width:100%;
+	height:100%;
+	justify-content:space-around;
+	align-items:center;
+	list-style:none;
+	
+}	
+.informacao{
+	background-color:#00527C;
+	width:200px;
+	height:300px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	border-radius:20px;
+	color:#F59800;
+	font-family:'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	
+}
+#sessao{
+	display:flex;
+	justify-content:space-evenly;
+	margin:20px;
+}
+	
+a{
+	text-decoration:none;
+	color:#F59800;
+	font-family:'Open Sans', sans-serif;
+}
+	
+h2{
+	font-family:'Open Sans', sans-serif;
+	color:#F59800;	
+}	
+footer{
+	background-color:#F59800;
+	display:grid;
+	grid-template-columns:30% 40% 30%;
+	grid-template-rows:50% 50%;
+	width:100%;
+	height:170px;
+	margin-top:10px;
+	color:#00527C;
+	font-family:'Open Sans', sans-serif;
+	
+}
+.rodape1{
+	padding:20px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.rodape1 img{
+	margin-right:5px;
+}
+#endereco{
+	grid-column:3/4;
+	grid-row:1/3
+}
+	
+#sessao2{
+    width:100%;
+    height:50vh;
+    margin-bottom:8rem;
+}
+#sessao2 h2{
+    margin: 2rem;
+}
+#contabilidade{
+    width:100%;
+    height:50vh;
+    display:flex;
+    justify-content: space-around;
+}
+.principal{
+    width: 45%;
+    height: 50vh;
+}
+.principal img{
+    width:100%;
+    height:100%;
+}
+.principal p{
+    background-color:#00527C;
+	width:100%;
+	height:100%;
+	font-size:20px;
+	padding:15px;
+	text-align:justify;
+	color:#F59800;
+	font-family:'Open Sans', sans-serif;
+	line-height:2;
+}
+
+#endereco{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	font-family:'Open Sans', sans-serif;
+}
+form{
+	margin:10px;
+}	
+label{
+	
+	font:1rem 'Roboto', sans-serif;
+	color:#00527C;
+	font-weight:bold;
+}
+legend{
+	font-family:'Roboto', sans-serif;
+	font-size:18px;	
+	color:#00527C;
+	font-weight:bold;																
+}	
+fieldset{
+	padding:10px;
+	border-radius:10px;	
+	border-color:#F59800;
+}	
+#titulo{
+	text-align:center;
+	font-family:'Open Sans', sans-serif;
+	text-decoration:underline;
+	color:#F59800;
+	text-shadow:1px 1px 1px black;
+
+}
+#envio{
+	display:flex;
+	justify-content:flex-end;
+}	
+button{
+	background-color:#00527C;
+	color:#F59800;
+	text-transform:uppercase;
+	border-radius:10px;
+	padding:5px;
+	border:none;
+	width:7%;
+	height:8%;
+	margin:5px;
+	font-size:18px;
+	font-family:'Roboto', sans-serif;
+}
+.assessoria{
+	list-style:none;
+	color:#F59800;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	margin:20px;
+	
+}
+.assessoria ul{
+	display:flex;
+	justify-content:space-around;
+	font-size:15px;
+	padding:12px;
+	gap:23px;
+	text-align:justify;
+}	
+.servicos{
+	color:white;
+	background-color:#00527C;
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	/*border-radius:20px;*/
+	font-family:'Open Sans', sans-serif;
+	font-size:15px;
+	padding:15px;
+	border-radius:15px;
+	margin:10px;
+}
+#site{
+	margin:10px;
+	display:flex;
+	justify-content:space-around;
+}
+#frase{
+	background-image:url('imagens/servicos1.jpg');
+	background-color:red;
+	background-position:center;
+	background-size:cover;
+	height:40vh;
+	width:100%;
+	font-size:35px;
+	text-shadow:2px 2px 1px black;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#texto{
+	margin:10px;
+	text-shadow:2px 2px 1px black;
+	font-size:30px;
+	text-align:center;
+}
+#site a{
+	color:black;
+	font-size:12px;
+	padding:10px;
+}
+.assessoria h3{
+	font-size:23px;
+	font-family: 'Oswald', sans-serif;
+	text-shadow:1px 1px 1px black;
+}
+#fiscal ul{
+	display:flex;
+	justify-content:space-around;
+	align-items:flex-start;
+	background-color:#00527C;
+	font-size:15px;
+	color:white;
+	padding:25px;
+	border-radius:15px;
+	/*gap:15px;*/
+	width:100%;
+	height:100%;
+	text-align:left;
+	font-family:'Open Sans', sans-serif;
+}
+#div1 p{
+	display:flex;
+	justify-content:flex-start;
+	align-items:flex-start;
+	font-size:15px;
+	font-family:'Open Sans', sans-serif;
+	color:#00527C;
+}	
+#div1{
+	gap:23px;
+	width:100%;
+	height:100%;	
+}	
+#finaceiro ul{
+	display:flex;
+	justify-content:space-around;
+	background-color:#00527C;
+	color:white;
+	border-radius:15px;
+	padding:25px;
+	text-align:left;
+	gap:25px;
+	font-family:'Roboto', sans-serif;
+
+}	
+#finaceiro p{
+	color:#00527C;
+	text-align:justify;
+	font-size:17px;
+	font-family:'Roboto', sans-serif;
+}	
+	
